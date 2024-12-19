@@ -1,0 +1,20 @@
+import turtle
+screen=turtle.Screen()
+screen.screensize(800,800)
+screen.bgcolor('sienna1')
+t_ground=turtle.Turtle()
+t_ground.penup()
+t_ground.pencolor('saddlebrown')
+t_ground.fillcolor('saddlebrown')
+t_ground.speed(0)
+t_ground.goto(-1000,-100)
+t_ground.pendown()
+t_ground.begin_fill()
+t_ground.goto(1000,-100)
+t_ground.goto(1000,-1000)
+t_ground.goto(-1000,-1000)
+t_ground.goto(-1000,-100)
+t_ground.end_fill()
+
+
+turtle.done()
